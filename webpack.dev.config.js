@@ -1,5 +1,6 @@
 const path = require('path')
 const autoprefixer = require('autoprefixer')
+const postcssEpub = require('postcss-epub')
 const postcssPresetEnv = require('postcss-preset-env')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -38,7 +39,11 @@ module.exports = {
             options: {
               ident: 'postcss',
               sourceMap: true,
-              plugins: [autoprefixer({ grid: true }), postcssPresetEnv]
+              plugins: [
+                autoprefixer({ grid: true }),
+                postcssEpub({ strict: true }),
+                postcssPresetEnv
+              ]
             }
           }
         ]

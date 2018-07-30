@@ -17,6 +17,7 @@
     "markdown-loader": "^3.0.0",
     "marked": "^0.4.0",
     "mini-css-extract-plugin": "^0.4.1",
+    "postcss-epub": "^3.0.1",
     "postcss-loader": "^2.1.6",
     "postcss-preset-env": "^5.3.0",
     "vivliostyle": "^2017.6.0",
@@ -29,7 +30,6 @@
     "eslint-config-google": "^0.9.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.2",
-    "prettier": "^1.13.7",
-    "prettier-eslint-cli": "^4.7.1"
+    "prettier": "^1.13.7"
   }
 }
